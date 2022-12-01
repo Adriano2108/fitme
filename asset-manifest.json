@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fitme/static/css/main.073c9b0a.css",
+    "main.js": "/fitme/static/js/main.5dc9cd65.js",
+    "static/js/787.a42d57db.chunk.js": "/fitme/static/js/787.a42d57db.chunk.js",
+    "static/media/logo.svg": "/fitme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fitme/index.html",
+    "main.073c9b0a.css.map": "/fitme/static/css/main.073c9b0a.css.map",
+    "main.5dc9cd65.js.map": "/fitme/static/js/main.5dc9cd65.js.map",
+    "787.a42d57db.chunk.js.map": "/fitme/static/js/787.a42d57db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5dc9cd65.js"
+  ]
+}
