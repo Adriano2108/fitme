@@ -1,13 +1,138 @@
+html{
+  --primary-white: #000000;
+  --primary-black: #59534C;
+  --primary-orange: #EE9738;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3,h4,p,a{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*  */
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+ul,li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 90px;
+  z-index: 1;
+  color: white;
+}
+
+.left-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 465px;
+}
+
+.img-logo-header{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header img{
+  width: 50px;
+  height: 50px;
+}
+
+.nav-header{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.logo-title{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.nav-header li{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav-header p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-header a{
+  font-size: 18px;
+}
+
+.right-header{
+  display: flex;
+  column-gap: 17px;
+}
+
+.right-header button{
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 6px;
+  color: inherit;
+  font-style: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 13px 17px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.right-header .login{
+  background: rgba(255, 255, 255, 0.35);
+  transition: border 0.3s;
+}
+
+.right-header .login:hover{
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+}
+
+
+
+.right-header .trynow{
+  background: linear-gradient(93.01deg, #EE9738 0%, rgba(238, 151, 56, 0.88) 43.16%, rgba(238, 151, 56, 0.26) 109.03%);
+}
+
+
+/* Home */
+
+.home{
+  background: linear-gradient(106.24deg, #FF9E35 -3.97%, #DEDEDE 100%);
+  mix-blend-mode: normal;
+  width: 100%;
+  height: 760px;
+  margin-top: -90px;
+  padding-top: 90px;
+  z-index: -1;
 }
