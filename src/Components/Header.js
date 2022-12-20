@@ -1,19 +1,21 @@
+import fitMeLogo from "../fitmelogo.png";
+
 export default function Header() {
 
   return (
-    <div className="header"> 
+    <nav className="header"> 
 
       <div className="left-header">
         <div className="img-logo-header">
-          <img srcSet='/assets/fitmelogo.png' alt=""/>
+          <img src={fitMeLogo} alt=""/>
           <p className="logo-title" >FitMe</p>
         </div>
         <ul className="nav-header">
-          <li><a href="">Home</a></li>
+          <li><a href="/home">Home</a></li>
           <p>|</p>
-          <li><a href="">Sustainability</a></li>
+          <li><a href="#">Sustainability</a></li>
           <p>|</p>
-          <li><a href="">About</a></li>
+          <li><a href="#">About</a></li>
         </ul>
       </div>
       <div className="right-header">
@@ -21,7 +23,7 @@ export default function Header() {
         <button className="trynow">Try it Now</button>
       </div>
 
-    </div>
+    </nav>
   
   );
 

@@ -1,7 +1,7 @@
 export default function Sustainability() {
 
   return (
-    <p> Sustainability </p>
+    <main> Sustainability </main>
   );
 
 }
