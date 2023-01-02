@@ -13,7 +13,7 @@ export default function Header() {
         <ul className="nav-header">
           <li><a href="/home">Home</a></li>
           <p>|</p>
-          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Sus</a></li>
           <p>|</p>
           <li><a href="#">About</a></li>
         </ul>
